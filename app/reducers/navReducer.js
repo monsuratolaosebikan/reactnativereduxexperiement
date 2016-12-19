@@ -1,7 +1,7 @@
 'use strict';
 
 import {POP_ROUTE, PUSH_ROUTE} from '../actions/navActions'
-import {NavigatorExperimental} from 'react-native'
+import {NavigationExperimental} from 'react-native'
 
 const {
     StateUtils: NavigationStateUtils

@@ -1,4 +1,4 @@
-import {POP_ROUTE, PUSH_ROUTE} from '../actions/navActions'
+import {POP_ROUTE, PUSH_ROUTE} from '../constants/actionTypes'
 
 export function push(route) {
     return {
@@ -9,7 +9,6 @@ export function push(route) {
 
 export function pop(route) {
     return {
-        type: POP_ROUTE,
-        route
+        type: POP_ROUTE
     }
 }
